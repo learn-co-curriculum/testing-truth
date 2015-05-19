@@ -34,9 +34,60 @@ And anything else is a truthy value:
 * Object.new — any object
 * You get the idea!
 
-## Instructions
+Handy tip: there's a pre-built method, `true?`, that when given an argument, will return either `true` or `false`, depending on Ruby's evaluation of the "truthiness". 
 
-There's a pre-built method, `true?`, that when given an argument, will return either `true` or `false`, depending on Ruby's evaluation of the "truthiness". Change the question marks in the `spec/true_spec.rb` to either `true` or `false` until every test passes.
+With all that knowledge about truthiness you should now be all set to answer the quiz questions below. 
 
-Once you've gotten all the tests to pass, from the root folder, type  `ruby things_that_are_true_in_ruby.rb` and hit enter. This will print out some information on truthiness in Ruby.
+???
 
+# Quiz: On the Nature of Truth
+
+?: This method call `true?(true)` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?(false)` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?(nil)` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?(1)` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?(0)` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?(7)` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?(-9)` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?(5.4)` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?(400)` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?("")` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?(" ")` evaluates to:
+( ) `true`
+( ) `false`
+
+?: This method call `true?("hello world")` evaluates to:
+( ) `true`
+( ) `false`
+
+???
