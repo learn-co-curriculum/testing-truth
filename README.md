@@ -1,8 +1,4 @@
----
-tags: truth, truthiness, tdd, rspec, intro
-language: ruby
-resources: 1
----
+
 
 # Testing Truth
 
