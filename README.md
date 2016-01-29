@@ -37,4 +37,4 @@ There's a pre-built method, `true?`, that when given an argument, will return ei
 Once you've gotten all the tests to pass, from the root folder, type  `ruby things_that_are_true_in_ruby.rb` and hit enter. This will print out some information on truthiness in Ruby.
 
 
-<a href='https://learn.co/lessons/testing-truth' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/testing-truth' title='DEPRECATED 8/24/15'>DEPRECATED 8/24/15</a> on Learn.co and start learning to code for free.</p>
